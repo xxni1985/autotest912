@@ -8,7 +8,9 @@ Created on 2019��9��12��
 from test99.test11 import Web
 
 web=Web()
-web.driver.get("https://www.baidu.com")
+# web.driver.get("https://www.baidu.com")
+web.upload()
+
 
 web.close()
 
