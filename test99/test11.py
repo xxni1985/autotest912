@@ -7,7 +7,7 @@ Created on 2019��9��11��
 from selenium import webdriver
 from asyncio.tasks import sleep
 
-exepath="../lib/chromedriver.exe"
+exepath="lib/chromedriver.exe"
 class Web():
     def __init__(self):
         self.driver=webdriver.Chrome(executable_path=exepath)
